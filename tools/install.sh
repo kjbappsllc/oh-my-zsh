@@ -91,6 +91,16 @@ main() {
       printf "${BLUE}Please manually change your default shell to zsh!${NORMAL}\n"
     fi
   fi
+  
+  printf "${GREEN}"
+  echo '         __                                     __   '
+  echo '  ____  / /_     ____ ___  __  __   ____  _____/ /_  '
+  echo ' / __ \/ __ \   / __ `__ \/ / / /  /_  / / ___/ __ \ '
+  echo '/ /_/ / / / /  / / / / / / /_/ /    / /_(__  ) / / / '
+  echo '\____/_/ /_/  /_/ /_/ /_/\__, /    /___/____/_/ /_/  '
+  echo '                        /____/                       ....is now installed!'
+  echo ''
+  printf "${NORMAL}"
 }
 
 main
